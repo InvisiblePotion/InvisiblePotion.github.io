@@ -1,0 +1,37 @@
+/* 전역 설정 */
+html {
+    background-color: #333;
+    color: #fff;
+}
+
+/* 햄버거 이미지 스태킹 컨테이너 */
+#container-hamburgur {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* 햄버거 버튼 컨테이너 */
+#container-addstack {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 햄버거 이미지 생성 버튼들 */
+#container-addstack .btn-addstack {
+    padding: 0;
+    width: 70px;
+    height: 50px;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    color: #ccc;
+    font-size: 30px;
+    font-weight: 700;
+}

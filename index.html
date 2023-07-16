@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It's Invisible</title>
-    <style>
-        html {background-color: #444; color: #fff;}
-    </style>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="hamburgur.css">
+    <link rel="shortcut icon" href="./resource/img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    리액트 배워서 블로그 하나 내 손으로 만들기가 목표
+    <div class="container-audio">
+        <audio id="audio-ham" src="./resource/audio/ham.mp3"></audio>
+        <audio id="audio-bur" src="./resource/audio/bur.mp3"></audio>
+        <audio id="audio-gur" src="./resource/audio/gur.mp3"></audio>
+    </div>
+    <div id="container-hamburgur">
+        <!-- 여기에 햄버거 이미지 스태킹 -->
+    </div>
+    <div id="container-addstack">
+        <!-- 햄버거 이미지 생성 버튼들 -->
+        <button class="btn-addstack add-ham">HAM</button>
+        <button class="btn-addstack add-bur">BUR</button>
+        <button class="btn-addstack add-gur">GUR</button>
+    </div>
+    <script src="hamburgur.js"></script>
 </body>
 </html>

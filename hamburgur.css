@@ -26,12 +26,12 @@ html {
 /* 햄버거 이미지 생성 버튼들 */
 #container-addstack .btn-addstack {
     padding: 0;
-    width: 70px;
+    width: 60px;
     height: 50px;
     background-color: #333;
     border: none;
     border-radius: 10px;
     color: #ccc;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
 }
